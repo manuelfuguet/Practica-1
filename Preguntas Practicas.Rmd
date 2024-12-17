@@ -1,5 +1,7 @@
 ---
-title: "Preguntas Practicas"
-output: html_document
+title: "Pregunta Practicas"
+author: "Manuel & Thommas"
+date: "2024-12-17"
+output: word_document
 ---
 
