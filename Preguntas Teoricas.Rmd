@@ -18,7 +18,6 @@ por tipo? ¿Cuál es el tipo más frecuente? ¿De qué países tenemos más veh�
 Clasificación: Descriptiva
 Razón: El registro de vehículos está basado en un conjunto de datos estadísticos como tipo, marca, modelo… Estos conjuntos de datos solo busca identificar y categorizar los datos, no busca ni relaciones ni predicciones 
 
-
 2. Dado un registro de visualizaciones de un servicio de video-on-demand, donde
 disponemos de los datos del usuario, de la película seleccionada, fecha de
 visualización y categoría de la película, queremos saber ¿Hay alguna preferencia
@@ -26,8 +25,6 @@ en cuanto a género literario según los usuarios y su rango de edad?
 
 Clasificación: Exploratoria
 Razón: Este registro de visualizaciones buscar obtener una relación entre películas (entre los datos) ya vista y posibles películas similares.
-
-
 
 3. Dado un registro de peticiones a un sitio web, vemos que las peticiones que
 provienen de una red de telefonía concreta acostumbran a ser incorrectas y
@@ -37,7 +34,6 @@ mismo efecto en otras redes de telefonía?
 
 Clasificación: Predictiva
 Razón: El registro de peticiones a un sitio web,  el modelo busca evitar que el problema siga siendo recurrente para el futuro. Por lo que se pueden hacer un modelo de patrones para evitar o detectar posibles problemas en el futuro
-
 
 4. Dado los registros de usuarios de un servicio de compras por internet, los
 usuarios pueden agruparse por preferencias de productos comprados.
