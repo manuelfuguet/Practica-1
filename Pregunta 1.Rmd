@@ -26,3 +26,25 @@ en cuanto a género literario según los usuarios y su rango de edad?
 
 Clasificación: Exploratoria
 Razón: Este registro de visualizaciones buscar obtener una relación entre películas (entre los datos) ya vista y posibles películas similares.
+
+
+
+3. Dado un registro de peticiones a un sitio web, vemos que las peticiones que
+provienen de una red de telefonía concreta acostumbran a ser incorrectas y
+provocarnos errores de servicio. ¿Podemos determinar si en el futuro, los
+próximos mensajes de esa red seguirán dando problemas? ¿Hemos notado el
+mismo efecto en otras redes de telefonía?
+
+Clasificación: Predictiva
+Razón: El registro de peticiones a un sitio web,  el modelo busca evitar que el problema siga siendo recurrente para el futuro. Por lo que se pueden hacer un modelo de patrones para evitar o detectar posibles problemas en el futuro
+
+
+4. Dado los registros de usuarios de un servicio de compras por internet, los
+usuarios pueden agruparse por preferencias de productos comprados.
+Queremos saber si ¿Es posible que, dado un usuario al azar y según su historial,
+pueda ser directamente asignado a un o diversos grupos?
+
+Clasificación: Inferencial
+Razón: Este registro busca recopilar toda la información de preferencias (patrones) de compra de los usuarios para luego a partir de estos patrones generar una sugerencia de productos que estén relacionados. Algo muy común en las plataformas de shopping 
+
+
