@@ -1,5 +1,5 @@
 ---
-title: "Pregunta 1"
+title: "Pregunta Teoricas"
 author: "Manuel & Thommas"
 date: "2024-12-17"
 output: word_document
