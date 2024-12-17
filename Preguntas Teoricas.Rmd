@@ -47,4 +47,8 @@ pueda ser directamente asignado a un o diversos grupos?
 Clasificación: Inferencial
 Razón: Este registro busca recopilar toda la información de preferencias (patrones) de compra de los usuarios para luego a partir de estos patrones generar una sugerencia de productos que estén relacionados. Algo muy común en las plataformas de shopping 
 
+Pregunta 2
+
+Abordaremos este problema recopilando, manipulando y analizando datos de las conexiones de protocolo TCP para poder reducir la lista de posibles culpables. Primero obtendremos los datos mediante los LOGS de conexión registrados en cada máquina de los empleados, como segunda parte procesaremos los datos importando los registros en R, procederemos a la limpieza de datos duplicados o inconsistentes , formateamos timestamps para asegurarnos de que estarán en el mismo formato. Luego como tercer paso haríamos análisis visualizando la distribución de las conexiones para identificar patrones , tambien podriamos hacer una comparaciones de las conexiones registradas con la lista de puertos y/o servicios autorizados, finalmente visualizamos los datos mediante gráficos como histogramas , diagramas de red y Heat Maps para visualizar frecuencias de conexiones , mapear relaciones entre IPS e identificar aumentos de actividad sospechosa.
+:
 
