@@ -54,3 +54,33 @@ num_ips_edu <- length(ips_edu)
 # Mostrar el resultado
 print(paste("Número de IPs educativas:", num_ips_edu))
 
+
+
+## Pregunta 3
+
+
+
+
+
+
+
+## Pregunta 4
+
+library(dplyr)
+
+# Filtrar las peticiones hechas por instituciones educativas
+edu_requests <- epa_http %>% filter(grepl("\\.edu$", IP))
+
+# Filtrar las peticiones que corresponden a la descarga de ficheros de texto ".txt"
+txt_requests <- edu_requests %>% filter(grepl("\\.txt$", URL))
+
+# Convertir la columna 'Bytes of Reply' a numérico (si no lo está ya)
+txt_requests$`Bytes of Reply` <- as.numeric(txt_requests$`Bytes of Reply`)
+
+# Sumar los bytes transmitidos
+total_bytes <- sum(txt_requests$`Bytes of Reply`, na.rm = TRUE)
+
+# Mostrar el resultado
+print(paste("Total de bytes transmitidos en peticiones .txt por IPs .edu:", total_bytes))
+
+
