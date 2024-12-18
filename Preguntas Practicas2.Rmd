@@ -1,0 +1,15 @@
+---
+title: "Preguntas Practicas2"
+output: html_document
+---
+
+## Pregunta 2 
+
+# Filtrar las IPs que contienen ".edu"
+ips_edu <- grep("\\.edu", epa_http$IP, value = TRUE)
+
+# Contar el número de IPs educativas
+num_ips_edu <- length(ips_edu)
+
+# Mostrar el resultado
+print(paste("Número de IPs educativas:", num_ips_edu))
