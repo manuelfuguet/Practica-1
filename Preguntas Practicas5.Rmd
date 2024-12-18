@@ -1,0 +1,15 @@
+---
+title: "Preguntas Practicas5"
+output: html_document
+---
+
+library(dplyr)
+
+# Filtrar las peticiones que buscan la URL "/"
+root_url_requests <- epa_http %>% filter(URL == "/")
+
+# Contar el número de peticiones
+num_root_url_requests <- nrow(root_url_requests)
+
+# Mostrar el resultado
+print(paste("Número de peticiones que buscan la URL '/':", num_root_url_requests))

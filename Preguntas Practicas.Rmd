@@ -84,3 +84,15 @@ total_bytes <- sum(txt_requests$`Bytes of Reply`, na.rm = TRUE)
 print(paste("Total de bytes transmitidos en peticiones .txt por IPs .edu:", total_bytes))
 
 
+## Pregunta 5
+
+library(dplyr)
+
+# Filtrar las peticiones que buscan la URL "/"
+root_url_requests <- epa_http %>% filter(URL == "/")
+
+# Contar el número de peticiones
+num_root_url_requests <- nrow(root_url_requests)
+
+# Mostrar el resultado
+print(paste("Número de peticiones que buscan la URL '/':", num_root_url_requests))
