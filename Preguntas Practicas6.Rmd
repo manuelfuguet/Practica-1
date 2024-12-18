@@ -1,0 +1,15 @@
+---
+title: "Preguntas Practicas6"
+output: html_document
+---
+
+library(dplyr)
+
+# Filtrar las peticiones que no tienen el protocolo "HTTP/0.2"
+non_http02_requests <- epa_http %>% filter(Protocol != "HTTP/0.2")
+
+# Contar el número de peticiones
+num_non_http02_requests <- nrow(non_http02_requests)
+
+# Mostrar el resultado
+print(paste("Número de peticiones que no tienen el protocolo 'HTTP/0.2':", num_non_http02_requests))
