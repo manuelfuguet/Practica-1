@@ -3,3 +3,8 @@ title: "Preguntas Practicas3"
 output: html_document
 ---
 
+## Pregunta 3
+
+#De todas las peticiones recibidas por el servidor cual es la hora en la que hay mayor volumen de peticiones HTTP de tipo "GET"?
+
+El mayor volumen de peticiones HTTP de tipo "GET" es a las 14:00, con 4546 peticiones
